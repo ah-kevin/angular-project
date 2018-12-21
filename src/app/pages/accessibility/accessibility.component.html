@@ -1,0 +1,36 @@
+<div>
+  <div>
+    <h1>Monitoring focus with FocusMonitor</h1>
+    <div class="example-focus-monitor">
+      <button #element> Focus Monitored Element ({{elementOrigin}})</button>
+    </div>
+    <div class="example-focus-monitor">
+      <div #subtree>
+        <p>Focus Monitored Subtree ({{subtreeOrigin}})</p>
+        <button>Child Button 1</button>
+        <button>Child Button 2</button>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h1>Focusing with a specific FocusOrigin</h1>
+    <div class="example-focus-monitor">
+      <button #monitored>1. Focus Monitored Element ({{origin}})</button>
+      <button #unmonitored>2. Not Monitored</button>
+    </div>
+    <h4>Simulated focus origin</h4>
+    <nz-select style="width: 120px;" #simulatedOrigin nzAllowClear nzPlaceHolder="mouse" [(ngModel)]="selectedValue">
+      <nz-option nzValue="mouse" nzLabel="mouse"></nz-option>
+      <nz-option nzValue="keyboard" nzLabel="keyboard"></nz-option>
+      <nz-option nzValue="touch" nzLabel="touch" ></nz-option>
+      <nz-option nzValue="program" nzLabel="program" ></nz-option>
+    </nz-select>
+    <button (click)="focusMonitor.focusVia(monitored, selectedValue)">
+      Focus button #1
+    </button>
+    <button (click)="focusMonitor.focusVia(unmonitored, selectedValue)">
+      Focus button #2
+    </button>
+  </div>
+</div>
+

@@ -1,0 +1,22 @@
+import { fakeAsync, ComponentFixture, TestBed } from '@angular/core/testing';
+import { DefaultComponent } from './default.component';
+
+describe('DefaultComponent', () => {
+  let component: DefaultComponent;
+  let fixture: ComponentFixture<DefaultComponent>;
+
+  beforeEach(fakeAsync(() => {
+    TestBed.configureTestingModule({
+      declarations: [ DefaultComponent ]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(DefaultComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  }));
+
+  it('should compile', () => {
+    expect(component).toBeTruthy();
+  });
+});

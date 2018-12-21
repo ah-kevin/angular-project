@@ -96,17 +96,19 @@
     "@angular-devkit/core" "7.1.0"
     rxjs "6.3.3"
 
-"@angular/animations@~7.1.0":
-  version "7.1.1"
-  resolved "http://registry.npm.taobao.org/@angular/animations/download/@angular/animations-7.1.1.tgz#8fecbd19417364946a9ea40c8fdf32462110232f"
+"@angular/animations@~7.1.4":
+  version "7.1.4"
+  resolved "http://192.168.76.61:4873/@angular%2fanimations/-/animations-7.1.4.tgz#6c1ca6b8449bb0fa874343371961fccbe19791bc"
   dependencies:
     tslib "^1.9.0"
 
-"@angular/cdk@^6.0.0":
-  version "6.4.7"
-  resolved "http://registry.npm.taobao.org/@angular/cdk/download/@angular/cdk-6.4.7.tgz#1549b304dd412e82bd854cc55a7d5c6772ee0411"
+"@angular/cdk@^7.0.0", "@angular/cdk@^7.2.0":
+  version "7.2.0"
+  resolved "http://192.168.76.61:4873/@angular%2fcdk/-/cdk-7.2.0.tgz#03bfbbcd5882fbdab71e6d5b5f36b612589724b4"
   dependencies:
     tslib "^1.7.1"
+  optionalDependencies:
+    parse5 "^5.0.0"
 
 "@angular/cli@~7.1.0":
   version "7.1.0"
@@ -122,15 +124,15 @@
     semver "5.5.1"
     symbol-observable "1.2.0"
 
-"@angular/common@~7.1.0":
-  version "7.1.1"
-  resolved "http://registry.npm.taobao.org/@angular/common/download/@angular/common-7.1.1.tgz#f78f884614ef81ab2fd648f1aa3e83aae370a6c8"
+"@angular/common@~7.1.4":
+  version "7.1.4"
+  resolved "http://192.168.76.61:4873/@angular%2fcommon/-/common-7.1.4.tgz#a89f43e87317dee80b7664225442aaeca6c83547"
   dependencies:
     tslib "^1.9.0"
 
-"@angular/compiler-cli@~7.1.0":
-  version "7.1.1"
-  resolved "http://registry.npm.taobao.org/@angular/compiler-cli/download/@angular/compiler-cli-7.1.1.tgz#c5f6225fb72b56f42fa78c332fdee9755c64604e"
+"@angular/compiler-cli@~7.1.4":
+  version "7.1.4"
+  resolved "http://192.168.76.61:4873/@angular%2fcompiler-cli/-/compiler-cli-7.1.4.tgz#2a65ed98a189fb066d7e3dc6d98eff0918b3ff62"
   dependencies:
     canonical-path "1.0.0"
     chokidar "^1.4.2"
@@ -144,49 +146,49 @@
     tslib "^1.9.0"
     yargs "9.0.1"
 
-"@angular/compiler@~7.1.0":
-  version "7.1.1"
-  resolved "http://registry.npm.taobao.org/@angular/compiler/download/@angular/compiler-7.1.1.tgz#4efbcad27ab43d4cd36d936a8df2e073f6d02d0a"
+"@angular/compiler@~7.1.4":
+  version "7.1.4"
+  resolved "http://192.168.76.61:4873/@angular%2fcompiler/-/compiler-7.1.4.tgz#fc0f8ddd2d1b6e1a4aafab2af7949bbd05bc527c"
   dependencies:
     tslib "^1.9.0"
 
-"@angular/core@~7.1.0":
-  version "7.1.1"
-  resolved "http://registry.npm.taobao.org/@angular/core/download/@angular/core-7.1.1.tgz#9748b0103cd86226554e1ccbd0f43dd8c46f1ed1"
+"@angular/core@~7.1.4":
+  version "7.1.4"
+  resolved "http://192.168.76.61:4873/@angular%2fcore/-/core-7.1.4.tgz#ad899985290957bbb9ac5c47c62ae5a72ccf5d00"
   dependencies:
     tslib "^1.9.0"
 
-"@angular/forms@~7.1.0":
-  version "7.1.1"
-  resolved "http://registry.npm.taobao.org/@angular/forms/download/@angular/forms-7.1.1.tgz#d16ef10a901c007062fd19144cd77917ef55ee24"
+"@angular/forms@~7.1.4":
+  version "7.1.4"
+  resolved "http://192.168.76.61:4873/@angular%2fforms/-/forms-7.1.4.tgz#f3491264c27968d8da017fdc5b1178c46f4a4b83"
   dependencies:
     tslib "^1.9.0"
 
-"@angular/language-service@~7.1.0":
-  version "7.1.1"
-  resolved "http://registry.npm.taobao.org/@angular/language-service/download/@angular/language-service-7.1.1.tgz#6bbe35b2430ad54618a1803f881efb5894b296c9"
+"@angular/language-service@~7.1.4":
+  version "7.1.4"
+  resolved "http://192.168.76.61:4873/@angular%2flanguage-service/-/language-service-7.1.4.tgz#59303e719937f774d9266a5e5f498ba254e0fe7b"
 
-"@angular/platform-browser-dynamic@~7.1.0":
-  version "7.1.1"
-  resolved "http://registry.npm.taobao.org/@angular/platform-browser-dynamic/download/@angular/platform-browser-dynamic-7.1.1.tgz#6945298446173338782f437a996226110cda0d3e"
+"@angular/platform-browser-dynamic@~7.1.4":
+  version "7.1.4"
+  resolved "http://192.168.76.61:4873/@angular%2fplatform-browser-dynamic/-/platform-browser-dynamic-7.1.4.tgz#e76a5a267caf27d17bf46d16f009cd9c68a8dfd3"
   dependencies:
     tslib "^1.9.0"
 
-"@angular/platform-browser@~7.1.0":
-  version "7.1.1"
-  resolved "http://registry.npm.taobao.org/@angular/platform-browser/download/@angular/platform-browser-7.1.1.tgz#a6bd408f656dc43ee5a2d8af3dfaa786c7c1dfca"
+"@angular/platform-browser@~7.1.4":
+  version "7.1.4"
+  resolved "http://192.168.76.61:4873/@angular%2fplatform-browser/-/platform-browser-7.1.4.tgz#1d6cbaedb565d8b92fb0e227b2f4a599dd5ec217"
   dependencies:
     tslib "^1.9.0"
 
-"@angular/router@~7.1.0":
-  version "7.1.1"
-  resolved "http://registry.npm.taobao.org/@angular/router/download/@angular/router-7.1.1.tgz#80a4cdffc03a529b73485c2ad63a30ec435364ea"
+"@angular/router@~7.1.4":
+  version "7.1.4"
+  resolved "http://192.168.76.61:4873/@angular%2frouter/-/router-7.1.4.tgz#b618a7b3d474bc443b5f8269e04b093a9619800d"
   dependencies:
     tslib "^1.9.0"
 
-"@ant-design/icons-angular@^1.0.1":
-  version "1.0.1"
-  resolved "http://registry.npm.taobao.org/@ant-design/icons-angular/download/@ant-design/icons-angular-1.0.1.tgz#6eeddbc864deac378c36d882d566d8cce840ad2b"
+"@ant-design/icons-angular@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "http://192.168.76.61:4873/@ant-design%2ficons-angular/-/icons-angular-2.0.0-beta.1.tgz#ad6ae384e126a60217040b3b44224964ed21a7b5"
   dependencies:
     ant-design-palettes "^1.1.3"
     tslib "^1.9.0"
@@ -4025,12 +4027,12 @@ neo-async@^2.5.0:
   version "2.6.0"
   resolved "http://registry.npm.taobao.org/neo-async/download/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
 
-ng-zorro-antd@^1.8.1:
-  version "1.8.1"
-  resolved "http://registry.npm.taobao.org/ng-zorro-antd/download/ng-zorro-antd-1.8.1.tgz#8a7fb34385e77cae40d102927e4f789d1aebe0d5"
+ng-zorro-antd@^7.0.0-rc.1:
+  version "7.0.0-rc.1"
+  resolved "http://192.168.76.61:4873/ng-zorro-antd/-/ng-zorro-antd-7.0.0-rc.1.tgz#fc52c798b01211274548f807ce46c20ac05ceccd"
   dependencies:
-    "@angular/cdk" "^6.0.0"
-    "@ant-design/icons-angular" "^1.0.1"
+    "@angular/cdk" "^7.0.0"
+    "@ant-design/icons-angular" "2.0.0-beta.1"
     date-fns "^1.29.0"
     tslib "^1.9.0"
 
@@ -4507,6 +4509,10 @@ parse-json@^4.0.0:
 parse5@4.0.0:
   version "4.0.0"
   resolved "http://registry.npm.taobao.org/parse5/download/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"
+
+parse5@^5.0.0:
+  version "5.1.0"
+  resolved "http://192.168.76.61:4873/parse5/-/parse5-5.1.0.tgz#c59341c9723f414c452975564c7c00a68d58acd2"
 
 parseqs@0.0.5:
   version "0.0.5"
